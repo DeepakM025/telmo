@@ -1,0 +1,13 @@
+{
+  "products" : [
+    {
+      "name" : "Box Formaggio Lasara",
+      "img_link" : "BoxFormaggioLasara.jpeg"
+    },
+    {
+      "name" : "Caciotta d’autore",
+      "img_link" : "Caciottad’autore.jpeg"
+    }
+  ]
+}
+
