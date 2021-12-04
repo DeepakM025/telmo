@@ -32,12 +32,12 @@ function SignIn() {
                 </div>
               </div>
               <div className="forgot_password">
-                <Link to="/">Forgot Password</Link>
+                <Link to="/forgetpassword">Forgot Password</Link>
               </div>
               <button className="login_btn">Login</button>
               <button className="google_signin"><img src={GoogleIcon} alt="GoogleIcon" /> Or sign-in with Google</button>
             </form>
-            <p>Not a member yet? <Link to="/">Register!</Link></p>
+            <p>Not a member yet? <Link to="/signup">Register!</Link></p>
           </div>
         </div>
       </Row>

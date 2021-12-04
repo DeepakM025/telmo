@@ -81,7 +81,7 @@ nav {
   }
 }
 .welcome_sec {
-  background-color: #201bc1;
+  background-color: #e2e1fa;
   padding: 3rem 0;
   .welcome_header {
     margin-bottom: 1rem;
@@ -727,10 +727,65 @@ nav {
     }
   }
 }
+.comingsoon_wrap{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  h1{
+    font-size: 3.5rem;
+    font-family: 'Airbnb Cereal App Medium';
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #1d1abf;
+    padding: 2rem;
+  }
+}
+
+.mob_vis_head{
+  display: none !important;
+}
+.mob_nav{
+  .navbar-brand{
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .sidenav{
+    background-color: #ffffffb3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    z-index: 9;
+    display: none;
+    &.active{
+      display: block;
+    }
+    &>span{
+      position: absolute;
+      right: 0;
+      padding: 1rem;
+      color: #000;
+      font-size: 1.4rem;
+    }
+    .navbar-nav{
+      display: block;
+      padding-top: 3rem;
+      
+      a{
+        color: #000 !important;
+      }
+    }
+  }
+}
 
 
 // media quer for mobiles
 @media only screen and (max-width: 600px) {
+  .mob_vis_head{
+    display: block !important;
+  }
   .mob_d_none{
     display: none !important;
   }

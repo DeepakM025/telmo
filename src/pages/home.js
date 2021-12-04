@@ -28,7 +28,7 @@ function Home() {
       <div class="welcome_sec">
         <Container>
           <div className="welcome_header text-center">
-            <h1><span className="d-md-block d-none"><img src={Noodles} alt="Noodles" /></span> WELCOME TO TELMO <span className="d-md-block d-none"><img src={Noodles} alt="Noodles" /></span></h1>
+            <h1><span className="mob_d_none"><img src={Noodles} alt="Noodles" /></span> WELCOME TO TELMO <span className="mob_d_none"><img src={Noodles} alt="Noodles" /></span></h1>
           </div>
           <Row className="justify-content-center">
             <div className="card_ mob_w_90">
@@ -119,7 +119,7 @@ function Home() {
             <div className="text-center">
               <h2>OUR MISSION</h2>
               <p>As quality products are the assurance of a positive experience, a constant discovery, and authentic excellence, we want to make sure that you have these products at your doorstep. <br /> We want to make sure that having high-quality products is an easy, seamless process in terms of an array of choices, trust, ease of buying.</p>
-              <Link to="/about">Read More...</Link>
+              <Link to="/ourmission">Read More...</Link>
             </div>
           </div>
           <div className="leftImg d-md-block d-none">
@@ -130,7 +130,7 @@ function Home() {
       <div className="signup">
         <Container>
           <h2>BECOME A TELMO <br /> ENJOYER!</h2>
-          <input type="email" placeholder="Email" /> <br />
+          <input type="email" placeholder="Email" className="mob_w_100" /> <br />
           <button>SIGN UP</button>
         </Container>
       </div>
@@ -144,18 +144,18 @@ function Home() {
               <div className="logo_wrap"><img src={Logo} alt="logo" /></div>
               <h4><span><img src={RightArrow} alt="rightArrow" /></span> REACH THE TELMO COMMUNITY</h4>
               <div className="socialmedia_links">
-                <Link to=""><img src={Insta} alt="Insta" /></Link>
-                <Link to=""><img src={Linkedin} alt="Linkedin" /></Link>
-                <Link to=""><img src={Twitter} alt="Twitter" /></Link>
-                <Link to=""><img src={Facebook} alt="Facebook" /></Link>
+                <a href="https://www.instagram.com/telmosophy/?utm_medium=copy_link" rel="noreferrer" target="_blank"><img src={Insta} alt="Insta" /></a>
+                <Link to="/comingsoon"><img src={Linkedin} alt="Linkedin" /></Link>
+                <Link to="/comingsoon"><img src={Twitter} alt="Twitter" /></Link>
+                <Link to="/comingsoon"><img src={Facebook} alt="Facebook" /></Link>
               </div>
               <div className="links">
-                <Link to="">Meet Us</Link>
-                <Link to="">My Account</Link>
+                <Link to="/getintouch">Meet Us</Link>
+                <Link to="/signin">My Account</Link>
                 <br />
                 <hr />
-                <Link to="">Legal Notice</Link>
-                <Link to="">Terms and Condition</Link>
+                <Link to="/comingsoon">Legal Notice</Link>
+                <Link to="/comingsoon">Terms and Condition</Link>
               </div>
               <h3>ENJOY! <span><img src={Emoji} alt="Emoji" /></span></h3>
             </div>

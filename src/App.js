@@ -19,6 +19,7 @@ import HowWeWork from "./pages/howwework";
 import WhatWeOffer from "./pages/whatweoffer";
 import GetInTouch from "./pages/getintouch";
 import ProductList from "./pages/productlist";
+import ComingSoon from "./pages/comingsoon";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
           <Route exact path="/ourvalues" element={<OurValues />} />
           <Route exact path="/ourconfections" element={<OurConfections />} />
           <Route exact path="/productlist" element={<ProductList />} />
+          <Route exact path="/comingsoon" element={<ComingSoon />} />
         </Routes>
       </Router>
     </div>
